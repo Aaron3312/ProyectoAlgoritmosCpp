@@ -81,11 +81,13 @@ int main()
             baraja[nums].shape = "Rey";}
         if (k == 1 || k == 14 || k == 27 || k == 40){
             baraja[nums].shape = "As";
-            baraja[nums].number = 0;}
+            baraja[nums].number = {};
+            }
+            
         nums++;
         
     }
-
+            
 
     for (Card i : baraja)
     {
