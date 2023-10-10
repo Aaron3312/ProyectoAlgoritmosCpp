@@ -41,7 +41,8 @@ int main(){
     delete [ ] r;
     delete [ ] s;
     //in c se usa free(), y en c++ se usa delete
-
+    int *t;
+    
 
     
     return 0;
