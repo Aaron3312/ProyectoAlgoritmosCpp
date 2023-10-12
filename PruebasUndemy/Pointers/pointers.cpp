@@ -37,7 +37,16 @@ int main(){
     cout << "this is the size of p3: " << sizeof(p3) << endl;
     cout << "this is the size of p4: " << sizeof(p4) << endl;
     cout << "this is the size of p5: " << sizeof(p5) << endl;
+
+    cout << "intermediate" << endl;
+
+    int a = 10;
+    int &r = a;
+    r++;
     
+
+    cout << "this is the value of a: " << a << endl;
+    cout << "this is the value of r: " << r << endl;
     
     return 0;
 }
