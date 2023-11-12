@@ -46,6 +46,6 @@ int main()
     cout << "Area: " << p.areaRectangle() << endl;
     p.print();
     p.changeWidth(5);
-    p.print();
+    p.print(); //idk why this doesn't work
     return 0;
 }
